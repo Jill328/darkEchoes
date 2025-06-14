@@ -1,25 +1,12 @@
-# Dark Echoes
+# React + Vite
 
-![The application shows a list of episodes of a TV series. A detailed description is shown for a selected episode.](./example.png)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Let's build a TV app with React! Users will be able to browse the episodes of a fictional TV series named _Dark Echoes_.
+Currently, two official plugins are available:
 
-## Requirements
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-The boilerplate for setting up a React app with Vite has already been provided for you. You can start the app by running `npm install` and `npm run dev`.
+## Expanding the ESLint configuration
 
-Your task is to complete the `<App>` component in `src/App.jsx` to render the data that is exported from `src/data.js`. Your submission should meet the following requirements:
-
-- The app imports the array from `data` into a state variable.
-- The app keeps the selected episode in a state variable.
-- A list of episode names is rendered.
-- Each item in the rendered list has a unique key.
-- When an episode in the list is clicked, the selected episode is updated in state.
-- If no episode is selected, the app shows a message encouraging the user to select an episode.
-- If there is a selected episode, the app displays more details about it, including the episode's number, name, and description.
-- UI elements are organized into component functions.
-- The app is styled with CSS.
-
-## Submission
-
-Please submit the link to your public GitHub repository.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
